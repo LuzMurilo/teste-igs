@@ -9,7 +9,7 @@
 #include <stdio.h>
 
 int maior_valor(int v1, int v2, int v3, int v4){
-//complete...
+    
     int maior = v1;
     if (v2 > maior)
         maior = v2;
