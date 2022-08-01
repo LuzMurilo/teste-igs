@@ -1,0 +1,1 @@
+O Propósito deste teste é avaliar o seu conhecimento na linguagem de programação C
