@@ -10,8 +10,9 @@
 
 void calc_fatorial(int *valor_ft, int valor_n){
     int fatorial;
-    if (valor_n > 12)
+    if (valor_n > 12 || valor_n < 0)
     {
+        printf("Só é possível calcular números positivos\n");
         printf("Números maiores que 12 não são possíveis calcular usando 'int'\n");
         return;
     }
